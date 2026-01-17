@@ -19,5 +19,5 @@ jobs:
           node-version: 18
 
       - name: Echo Node node-version
-       run: node --version
+        run: node --version
 
