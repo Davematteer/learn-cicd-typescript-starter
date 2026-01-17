@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: 18
 
-      -name: Echo Node node-version
-      run: node --version
+      - name: Echo Node node-version
+       run: node --version
 
