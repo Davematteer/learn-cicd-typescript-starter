@@ -21,3 +21,5 @@ jobs:
       - name: Echo Node node-version
         run: node --version
 
+      - name: Log out some bs 
+        run: node -e 'console.log("Log ts bitch")'
