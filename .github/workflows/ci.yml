@@ -23,3 +23,7 @@ jobs:
 
       - name: Log out some bs 
         run: node -e 'console.log("Log ts bitch")'
+
+      - name: Install Dependencies
+        run: npm ci
+        run: npm run test
